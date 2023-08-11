@@ -3,7 +3,7 @@
 const VERSION = "v0.2.0";
 
 const sql = require("./sql.js");
-const DB_PATH = "bundles/pika-overlay/pika.db"
+const DB_PATH = "bundles/tekken-overlay/pika.db"
 
 module.exports = function (nodecg) {
     exports.nodecg = nodecg;

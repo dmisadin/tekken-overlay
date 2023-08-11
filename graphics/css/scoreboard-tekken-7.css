@@ -1,14 +1,19 @@
+/* @font-face {
+    font-family: "TTSupermolotNeue";
+    src: url("font/ttsupermolotneue/TTSupermolotNeue-CondDBoldItalic.ttf");
+}
+ */
 @font-face {
-    font-family: "Montserrat";
-    src: url("font/montserrat/Montserrat-SemiBold.ttf");
+    font-family: "TTSupermolotNeue";
+    src: url("font/ttsupermolotneue/TTSupermolotNeue-CondDBold.ttf");
 }
 
 #root {
     width: 1920px;
-    height 1080px;
+    height: 1080px;
 
     font-size: 20pt;
-    font-family: "Montserrat";
+    font-family: "TTSupermolotNeue";
     color: white;
 }
 
@@ -25,7 +30,7 @@
 
 .player-name {
     font-size: 20pt;
-    font-family: "Montserrat";
+    font-family: "TTSupermolotNeue";
     color: white;
     overflow: hidden;
 
@@ -34,7 +39,7 @@
 
 .player-sponsor {
     font-size: 20pt;
-    font-family: "Montserrat";
+    font-family: "TTSupermolotNeue";
     color: rgb(160, 160, 160);
     overflow: hidden;
 
